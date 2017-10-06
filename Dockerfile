@@ -7,4 +7,3 @@ RUN apt-get update \
 	&& apt-get install -y --no-install-recommends openjdk-8-jdk \
 		wget \
 	&& rm -rf /var/lib/apt/lists/*
-
